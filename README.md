@@ -3,6 +3,7 @@
 Homebrew casks for the tools I build and share.
 
 ```bash
+brew trust mfmaur/tap
 brew install --cask mfmaur/tap/point-and-yap
 ```
 
