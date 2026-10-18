@@ -1,6 +1,6 @@
 cask "point-and-yap" do
-  version "0.1.2"
-  sha256 "7c6196f7ad1982a0b73ebe19489912902626fd5c109e1fc56957c3c07e2d1194"
+  version "0.1.3"
+  sha256 "0b8b057e67b8d715768010ff037e0158ffe7346c8dd6678847a8d1abca8a65c0"
 
   url "https://github.com/mfmaur/pointandyap/releases/download/v#{version}/PointAndYap.dmg"
   name "Point and Yap"
