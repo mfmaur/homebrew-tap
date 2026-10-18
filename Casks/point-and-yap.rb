@@ -1,6 +1,6 @@
 cask "point-and-yap" do
-  version "0.1.0"
-  sha256 "06bb3a83f82063855ee6ee99740fb8ea77f1f905dcbf5a8b9037e66fad5079a2"
+  version "0.1.1"
+  sha256 "82057291f03170a38e82cc09ef71e8f033cb0edbad173625222d8bc0792e3323"
 
   url "https://github.com/mfmaur/pointandyap/releases/download/v#{version}/PointAndYap.dmg"
   name "Point and Yap"
@@ -15,10 +15,10 @@ cask "point-and-yap" do
   depends_on arch: :arm64
   depends_on macos: ">= :tahoe"
 
-  app "Point.app"
+  app "Point and Yap.app"
 
   zap trash: [
-    "~/Library/Application Support/Point",
-    "~/Library/Preferences/com.marcmaurer.point.plist",
+    "~/Library/Application Support/PointAndYap",
+    "~/Library/Preferences/com.marcmaurer.pointandyap.plist",
   ]
 end
